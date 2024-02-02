@@ -1,0 +1,149 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    background-color: #edb230;
+}
+
+a { 
+    text-decoration: none; 
+}
+a:hover {
+    text-decoration: underline; 
+}
+
+.logo{
+    margin-left: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 30px;
+    font-size: 150%;
+    background: linear-gradient(to right, #ef5350, #7e57c2 25%, #2196f3 50%, #43a047 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.current_page{
+    color: gray;
+}
+
+.indexdiv{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 80%;
+    border: 2px solid black;
+}
+.subheader{
+    text-align: center;
+}
+.largertext{
+    font-size: 120%;
+}
+.maxwidth{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-div{
+    padding: 10px;
+}
+
+#head{
+    text-align: center;
+    margin: 20px;
+}
+#yourart{
+    font-size: 175%;
+}
+
+.table_div{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+table{
+    background-color: #ffdda1;
+    table-layout: fixed;
+}
+table, tr{
+    border: 1px solid black;
+}
+th,td {
+    word-wrap: break-word;
+}
+
+.formpad{
+    padding: 10px;
+
+}
+.center{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.vertcenter{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.artwork{
+    height: 100%;
+}
+
+.flexcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pixel {
+    background-color: white;
+	border: 1px solid #000;
+    margin: 0;
+	width: 5%;
+
+	cursor: pointer;
+
+    /* Supposedly this is how you make height same as width??? */
+    /* For some reason the height % is slightly smaller than width%? Not perfectly square */
+    height: 0;
+    padding-top: 4.7%;
+
+    z-index: 0;
+}
+
+/* This class isn't actually used for anything, 
+just a place to store/show what colors the pixels can be */
+.usedColors{
+    color: white;
+    color: black;
+    color: gray;
+    color: yellow;
+    color: goldenrod;
+    color: orange;
+    color: orangered;
+    color: red;
+    color: maroon;
+    color: pink;
+    color: lightgreen;
+    color: green;
+    color: darkgreen;
+    color: lightskyblue;
+    color: cyan;
+    color: teal;
+    color: blue;
+    color: navy;
+    color: purple;
+    color: magenta;
+    color: saddlebrown;
+    color: tan;
+}

@@ -1,2 +1,2 @@
 # PixelArt
-Formerly known as CollabArt
+Formerly known as CollabArt, Pixelart is a website to collaborate on pixel art. Users can view other people’s artworks and edit the art with their own assigned colors. Users can register/log on, view their own/other user’s artworks, and edit pixels using colors assigned to the user
